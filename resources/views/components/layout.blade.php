@@ -19,6 +19,9 @@
         <meta name="description" content="{{ $description }}">
     @endif
 
+    {{-- The optional tags of inupress/seo: canonical, Open Graph, Twitter. --}}
+    @includeIf('inupress-seo::head', ['title' => $title ?? null, 'description' => $description ?? null])
+
     @inupressStyles
     @stack('head')
     @stack('styles')

@@ -12,7 +12,8 @@ composer require inupress/theme-default
 ```
 
 Nothing else to do: `INUPRESS_THEME` already defaults to `inupress/theme-default`, so the theme is
-picked up on the next request and its CSS and JS are published to `public/vendor/` automatically.
+picked up on the next request and its CSS and JS are published to
+`public/vendor/inupress/theme-default/` automatically.
 
 ## What it is
 

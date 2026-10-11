@@ -1,0 +1,7 @@
+{
+    "name": "Default",
+    "parent": null,
+    "views": "resources/views",
+    "styles": ["dist/theme.css"],
+    "scripts": ["dist/alpine.js"]
+}

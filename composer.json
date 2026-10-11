@@ -1,0 +1,16 @@
+{
+    "name": "inupress/theme-default",
+    "description": "The default Inupress theme: a clean starting point built on Tailwind CSS and Alpine.js",
+    "type": "inupress-theme",
+    "keywords": ["inupress", "inupress-theme"],
+    "license": "MIT",
+    "require": {
+        "php": "^8.3",
+        "inupress/core": "^0.1"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "0.1.x-dev"
+        }
+    }
+}

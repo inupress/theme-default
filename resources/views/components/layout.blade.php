@@ -25,8 +25,11 @@
 </head>
 <body class="flex h-full flex-col bg-white text-slate-900 antialiased">
     <header class="inupress-header">
-        <div class="inupress-container flex items-center justify-between py-4">
+        <div class="inupress-container flex items-center justify-between gap-6 py-4">
             <a href="{{ url('/') }}" class="inupress-brand">{{ config('app.name') }}</a>
+
+            {{-- The menu the admin edits under Menus; nothing at all without inupress/menus. --}}
+            @includeIf('inupress-menus::nav', ['name' => 'primary', 'class' => 'inupress-nav'])
         </div>
     </header>
 
